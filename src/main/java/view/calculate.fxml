@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="24.0" layoutY="29.0" focusTraversable="false" promptText="first" />
+      <TextField layoutX="24.0" layoutY="71.0" focusTraversable="false" promptText="second" />
+      <TextField layoutX="233.0" layoutY="29.0" focusTraversable="false" promptText="result" />
+      <Button layoutX="233.0" layoutY="71.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="84.0" text="Calculate" />
+   </children>
+</AnchorPane>
